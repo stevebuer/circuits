@@ -1,0 +1,27 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8f3a5c9a-7b2e-4e1f-9c8d-3e5a7b2c9f1a)
+
+  (paper "A4")
+
+  (title_block
+    (title "40m SDR Receiver with Tayloe Detector")
+    (date "2026-01-07")
+    (rev "1.0")
+    (company "")
+  )
+
+  (lib_symbols
+  )
+
+  (junction (at 0 0) (diameter 0) (color 0 0 0 0)
+    (uuid 00000000-0000-0000-0000-000000000000)
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances)
+)
