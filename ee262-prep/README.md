@@ -1,1 +1,3 @@
-# EE262 Self Study Course Prep
+# EE262 Study
+
+Todo

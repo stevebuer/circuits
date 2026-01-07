@@ -22,14 +22,30 @@
   - Qty: 2 (one for each I/Q channel)
   - Alternative: NE5532, TL072 (lower performance)
 
-### RF Front-End
-- **BFP420** - NPN RF transistor for preamp (SOT-23)
-  - Qty: 1 (optional)
-  - Alternative: 2N5109, BFR93A
-- **Inductors** - For bandpass filter
-  - TBD based on filter design
-- **Capacitors** - For bandpass filter
-  - TBD based on filter design
+### RF Front-End - Bandpass Filter (3rd order)
+- **680 nH inductors** - Series inductors (air-wound or shielded)
+  - Qty: 2
+  - Coilcraft 1812CS-681 or hand-wound on T37-6 toroid
+- **150 pF capacitors** - NP0/C0G ceramic (0805 or through-hole)
+  - Qty: 2
+  - Must be NP0/C0G for temperature stability
+
+### RF Front-End - Preamp
+- **BFP420** - NPN RF transistor (SOT-23)
+  - Qty: 1
+  - Alternative: 2N5109 (TO-39)
+- **8.2kΩ resistor** - Base bias (1/4W)
+  - Qty: 1
+- **2.2kΩ resistor** - Base bias (1/4W)
+  - Qty: 1
+- **220Ω resistor** - Emitter resistor (1/4W)
+  - Qty: 1
+- **680 nH inductors** - Matching inductors
+  - Qty: 2
+- **1 µH RF choke** - Collector load
+  - Qty: 1
+- **100 pF capacitors** - NP0/C0G ceramic
+  - Qty: 3 (coupling and bypass)
 
 ### USB Audio Interface
 - **PCM2902** - USB Audio Codec (SSOP-28)
