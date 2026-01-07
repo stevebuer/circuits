@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5a7a2b7d-8c3e-4f1a-9c2e-1d3e4f5a6b7c)
+
+  (paper "A4")
+
+  (title_block
+    (title "10m Softrock Receiver")
+    (date "2026-01-06")
+    (rev "v0.1")
+    (company "")
+    (comment 1 "QSD-based SDR receiver for 10m amateur band")
+  )
+
+  (lib_symbols)
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
